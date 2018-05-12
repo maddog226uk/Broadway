@@ -1,6 +1,8 @@
 html {
   font-family: Helvetica;
   text-align: center;
+  border-left: 300px solid black;
+  border-right: 300px solid black;
 
 }
 .title h1 {
@@ -23,6 +25,18 @@ html {
   background-size: cover;
 }
 
-.newyork {
+#newyork {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  background-size: cover;
+}
+
+.footer {
+  background-color: dimgray;
+  color: white;
+  text-align: left;
+}
+
+#copyright {
+  font-size: 11px;
+  color: white;
 }
