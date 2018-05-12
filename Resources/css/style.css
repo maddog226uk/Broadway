@@ -2,3 +2,11 @@ html {
   font-family: Helvetica;
   text-align: center;
 }
+.menu {
+  font-size: 18px;
+  color: Gray;
+
+}
+.title {
+  background-image: image(./Resources/images/the-flatiron-building.png);
+}
