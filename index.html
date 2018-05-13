@@ -5,61 +5,65 @@
     <title>Broadway Design</title>
   </head>
   <body>
-    <!-- Menu Selection -->
+    <!-- Menu item Selection with line breaks -->
   <div class="container title">
     <h1>Broadway Design</h1>
-    <menu class="menu">
-      <menuitem class="home set1" type="command" label="Save"><a href="#">Home</a></menuitem>
-      <br>
-      <br>
-      <menuitem class="set" type="command" label="Save"><a href="#">Process</a></menuitem>
-      <br>
-      <br>
-      <menuitem class="set" type="command" label="Save"><a href="#">Work</a></menuitem>
-      <br>
-      <br>
-      <menuitem class="set" type="command" label="Save"><a href="#">Team</a></menuitem>
-      <br>
-      <br>
-      <menuitem class="set" type="command" label="Save"><a href="#contact">Contact</a></menuitem>
-    </menu>
+    <div>
+      <menu >
+        <menuitem id="top"type="command" label="Save"><a href="#">Home</a></menuitem>
+        <br>
+        <br>
+        <menuitem type="command" label="Save"><a href="#process">Process</a></menuitem>
+        <br>
+        <br>
+        <menuitem type="command" label="Save"><a href="#port">Work</a></menuitem>
+        <br>
+        <br>
+        <menuitem type="command" label="Save"><a href="#team">Team</a></menuitem>
+        <br>
+        <br>
+        <menuitem type="command" label="Save"><a href="#contact">Contact</a></menuitem>
+      </menu>
+    </div>
+
   </div>
     <!-- Icons Selection -->
  <div class="container icons">
-    <h2>Our Process</h2>
-    <img class="process" src="./Resources/images/identify.svg" alt="squirly line with arrowed pointing right">
-    <h3>Identify</h3>
-    <p class="identify">we focus on the most important details.</p>
-    <img class="process" src="./Resources/images/understand.svg" alt="two arrowed lines in an opposing circular direction">
-    <h3>Understand</h3>
+    <h2 id="process">Our Process</h2>
+    <img src="./Resources/images/identify.svg" alt="squirly line with arrowed pointing right">
+    <h2>Identify</h2>
+    <p>we focus on the most important details.</p>
+    <img src="./Resources/images/understand.svg" alt="two arrowed lines in an opposing circular direction">
+    <h2>Understand</h2>
     <p>We study our projects inside and out.</p>
-    <img class="process" src="./Resources/images/execute.svg" alt="two arrowed lines in an opposing circular direction">
-    <h3>Execute</h3>
+    <img src="./Resources/images/execute.svg" alt="two arrowed lines in an opposing circular direction">
+    <h2>Execute</h2>
     <p>We put everything we have into our work.</p>
   </div>
 
+<!-- Navigation -->
   <div class="container">
-    <h3 id="newyork">Designed in New York</h3>
-    <h3>Portfilio</h3>
+    <h2 id="newyork">Designed in New York</h2>
+    <h2 id="port">Portfilio</h2>
     <p>Coming Soon</p>
-    <h3>Team</h3>
+    <h2 id="team">Team</h2>
     <p>We're Hiring!</p>
     <div id="contact">
-      <h3>Contact</h3>
+      <h2>Contact</h2>
       <p>Phone: (555)-555-5555</p>
       <p>E-mail: test@example.com</p>
       <p>Twitter: @test</p>
     </div>
   </div>
-
+<!-- Footer bottom line -->
   <div class="footer">
     <footer>
        <menu>
          <menuitem id="copyright" type="command" label="Save">&#169; Broadway 2017</menuitem>
-          <menuitem type="command" label="Save"><a href="#">Home</a></menuitem>
-          <menuitem type="command" label="Save"><a href="#">Process</a></menuitem>
-          <menuitem type="command" label="Save"><a href="#">Work</a></menuitem>
-          <menuitem type="command" label="Save"><a href="#">Team</a></menuitem>
+          <menuitem type="command" label="Save"><a href="#top">Home</a></menuitem>
+          <menuitem type="command" label="Save"><a href="#process">Process</a></menuitem>
+          <menuitem type="command" label="Save"><a href="#port">Work</a></menuitem>
+          <menuitem type="command" label="Save"><a href="#team">Team</a></menuitem>
           <menuitem type="command" label="Save"><a href="#contact">Contact</a></menuitem>
         </menu>
       </footer>
